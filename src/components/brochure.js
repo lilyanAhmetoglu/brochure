@@ -211,40 +211,11 @@ class Brochure extends React.Component {
             <div className="row">
               <div class="col-md-5ths  col-xs-12">
                 <div className="achievments">
-                  <img src={A1} />
-                  <p>300+ Company Partners</p>
-                </div>
-              </div>
-              <div class="col-md-5ths  col-xs-12">
-                <div className="achievments">
                   <img src={A2} />
-                  <p>5 Worldwide Offices</p>
-                </div>
-              </div>
-              <div class="col-md-5ths  col-xs-12">
-                <div className="achievments">
-                  <img src={A3} />
-                  <p>Certified Scrum Master</p>
-                </div>
-              </div>
-              <div class="col-md-5ths col-xs-12">
-                <div className="achievments">
-                  <img src={A4} />
-                  <p>Cloudera, Hadoop, AWS, Azure partner</p>
-                </div>
-              </div>
-              <div class="col-md-5ths col-xs-12">
-                <div className="achievments">
-                  <img src={A5} />
-                  <p>No outsourcing to freelancers or subcontractors</p>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div class="col-md-5ths col-xs-12">
-                <div className="achievments">
-                  <img src={A6} />
-                  <p>Internal training & certification of employees</p>
+                  <p>
+                    5 Worldwide
+                    <br /> Offices
+                  </p>
                 </div>
               </div>
               <div class="col-md-5ths  col-xs-12">
@@ -255,10 +226,45 @@ class Brochure extends React.Component {
               </div>
               <div class="col-md-5ths  col-xs-12">
                 <div className="achievments">
+                  <img src={A3} />
+                  <p>
+                    Certified Scrum <br /> Masters
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-5ths  col-xs-12">
+                <div className="achievments">
+                  <img src={A1} />
+                  <p>300+ Company Partners</p>
+                </div>
+              </div>
+              <div class="col-md-5ths col-xs-12">
+                <div className="achievments">
+                  <img src={A6} />
+                  <p>Internal training & certification of employees</p>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div class="col-md-5ths col-xs-12">
+                <div className="achievments">
+                  <img src={A5} />
+                  <p>No outsourcing to freelancers or subcontractors</p>
+                </div>
+              </div>
+              <div class="col-md-5ths  col-xs-12">
+                <div className="achievments">
                   <img src={A8} />
                   <p>80+ permanent Data Engineers and Data Scientists</p>
                 </div>
               </div>
+              <div class="col-md-5ths col-xs-12">
+                <div className="achievments">
+                  <img src={A4} />
+                  <p>Cloudera, Hadoop, AWS, Azure partner</p>
+                </div>
+              </div>
+
               <div class="col-md-5ths col-xs-12">
                 <div className="achievments">
                   <img src={A9} />
@@ -324,10 +330,11 @@ class Brochure extends React.Component {
                         <span>
                           Developing and maintaining data lakes on AWS. Data
                           migration from RDBMS and file sources, loading data
-                          into S3, Redshift, and RDS. Designing and developing
-                          big data batch solutions using AWS Data Pipeline and
-                          AWS Glue and EMR. Developing a massive data warehouse
-                          using Redshift and Redshift Spectrum.
+                          into S3, Redshift, and RDS. <br />
+                          Designing and developing big data batch solutions
+                          using AWS Data Pipeline and AWS Glue and EMR.
+                          Developing a massive data warehouse using Redshift and
+                          Redshift Spectrum.
                         </span>
                       </p>
                     </div>
@@ -783,7 +790,6 @@ class Brochure extends React.Component {
             </div>
           </div>
         </div>
-
         <div className="background background6" id="b10">
           <div className="container">
             <div className="row">
