@@ -47,7 +47,7 @@
     border-radius: 10px;
     background-color: #fff;
     position: relative;
-
+    box-shadow: 0 0 4px #a6a6a6;
     margin: auto;
     padding: 0px;
     margin: auto;
@@ -57,21 +57,12 @@
   .project-img {
 
   }
-  .mainProductsCard:hover {
-    transform: translateY(-10px);
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
+
   .mainProductsCard:hover .project-img {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
     opacity: 1;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+
   }
   .mainProductsCard p {
     min-height: 110px;

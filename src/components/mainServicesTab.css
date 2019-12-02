@@ -1,216 +1,211 @@
 @media only screen and (max-width: 991px) {
-    .mainProductsCard {
-      width: 90%;
-      min-height: 380px;
-      margin: auto;
-      padding: 0px;
-      margin: auto;
-      max-width: 275px;
-      overflow: hidden;
-    }
-    .mainProductsCardContainer {
-      margin-bottom: 30px;
-    }
-  
-    .mainSercivesTabTitle1 a {
-      padding: 10px 5px 10px 5px !important;
-    }
-  
-    .mainSercivesTabTitleContainer .row {
-      margin: auto;
-    }
-  
-    .servicesTitle {
-      padding-left: 15px;
-    }
-  
-    .mainSercivesTabTitle1 a {
-      font-family: Rubik, sans-serif;
-      display: block;
-      min-height: 50px;
-      line-height: 30px;
-      width: 80%;
-      -webkit-border-radius: 10px !important;
-      -moz-border-radius: 10px !important;
-      border-radius: 10px !important;
-      text-align: center;
-      color: #fff ;
-      opacity: 0.6;
-      font-size: 24px;
-      box-shadow: 0 6px 6px -6px gray;
-      margin-bottom: 10px;
-      width: 100%;
-    }
-    .mainSercivesTabTitle1 a:hover,
-    .mainSercivesTabTitle1 a.active {
-      background-color: #1d232f !important;
-      color: #fff;
-      opacity: 1;
-      background-image: url(../images/tabUnderLine.png);
-      background-position: center bottom;
-      background-repeat: no-repeat;
-      background-size: 70%;
-      cursor: pointer;
-      font-weight: bold;
-      -webkit-border-radius: 10px !important;
-      -moz-border-radius: 10px !important;
-      border-radius: 10px !important;
-    }
+  .mainProductsCard {
+    width: 90%;
+    min-height: 380px;
+    margin: auto;
+    padding: 0px;
+    margin: auto;
+    max-width: 275px;
+    overflow: hidden;
   }
-  
-  @media only screen and (min-width: 992px) {
-    .mainProductsCard {
-      width: 90%;
-      min-height: 360px;
-      margin: auto;
-      padding: 0px;
-      margin: auto;
-      max-width: 275px;
-      overflow: hidden;
-    }
-  
-    .mainProductsCardContainer {
-      margin-bottom: 10px;
-    }
-  
-    .servicesTitle {
-      padding-left: 70px;
-    }
-  
-    .mainSercivesTabTitle1 a:hover,
-    .mainSercivesTabTitle1 a.active {
-      background-color: transparent !important;
-      background-image: url(../images/tabUnderLine.png);
-      background-position: center bottom;
-      background-size: 80% 4px;
-      background-repeat: no-repeat;
-      color: #fff !important;
-      font-weight: bold;
-      opacity: 1;
-    }
+  .mainProductsCardContainer {
+    margin-bottom: 30px;
   }
-  
-  .mainSercivesTabContainer .pageTitle {
-    margin-bottom: 20px;
 
-    display: inline-block;
-    width: 188px;
-    height: 34px;
-  }
-  
-  .mainSercivesTabContainer {
-   
-   
-  }
-  
-  .mainSercivesTabTitle1 {
-    background-color: transparent !important;
-    margin-left: 0px;
-    padding: 0px 5px 0px 5px;
-  }
-  .mainSercivesTabTitle.active {
-    background-color: transparent !important;
-    color: #212529;
-  }
-  
   .mainSercivesTabTitle1 a {
-    background-color: transparent !important;
-    padding: 10px 5px 10px 5px;
+    padding: 10px 5px 10px 5px !important;
+  }
+
+  .mainSercivesTabTitleContainer .row {
+    margin: auto;
+  }
+
+  .servicesTitle {
+    padding-left: 15px;
+  }
+
+  .mainSercivesTabTitle1 a {
+    font-family: Rubik, sans-serif;
+    display: block;
+    min-height: 50px;
+    line-height: 30px;
+    width: 80%;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    border-radius: 10px !important;
     text-align: center;
-    font-size: 22px;
     color: #fff;
     opacity: 0.6;
+    font-size: 24px;
+    box-shadow: 0 6px 6px -6px gray;
+    margin-bottom: 10px;
+    width: 100%;
   }
-  
-  .mainSercivesTabTitle1 a span {
-    font-size: 20px;
-  }
-  
-  .mainSercivesTabContainer .mainSercivesTabContentContainer {
-    background-color: transparent;
-    padding: 20px 0px 20px 0px;
-  }
-  .mainSercivesTabContainer .mainSercivesTabContentContainer p{
-    color:#fff;
-    letter-spacing: 0.40px;
-    text-align: justify;
-    position: relative;
-
-  }
-  .mainSercivesTabContainer .mainSercivesTabContentContainer .title p{
-    color:#fff;
-    text-align: center;
-    font-weight: 600;
-    margin: auto;
-  
-  }
-  .serviceplan{
-   
-    position: absolute;
-    top: -30px;
+  .mainSercivesTabTitle1 a:hover,
+  .mainSercivesTabTitle1 a.active {
+    background-color: #1d232f !important;
     color: #fff;
-    text-align: left;
-    font-weight: 600;
-    margin-bottom: 5px;
+    opacity: 1;
+    background-image: url(../images/tabUnderLine.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    cursor: pointer;
+    font-weight: bold;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    border-radius: 10px !important;
   }
-  .mainSercivesTabContainer .mainSercivesTabContentContainer .details{
-    width: 100%;
-    padding-top: 20px;
-    display: flex;
+  .mainSercivesTabContainer .mainSercivesTabContentContainer p {
+    padding-top: 30px !important;
   }
-  .mainSercivesTabContainer .mainSercivesTabContentContainer .details img{
-    margin-right: 15px;
-    height: fit-content;
+}
+
+@media only screen and (min-width: 992px) {
+  .mainProductsCard {
+    width: 90%;
+    min-height: 360px;
+    margin: auto;
+    padding: 0px;
+    margin: auto;
+    max-width: 275px;
+    overflow: hidden;
   }
 
-  
-  
-  .mainProductsCard:hover {
-    transform: translateY(-10px);
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+  .mainProductsCardContainer {
+    margin-bottom: 10px;
   }
-  
-  .mainProductsCardImgContainer {
-    padding: 0px;
-    margin: 0px;
+
+  .servicesTitle {
+    padding-left: 70px;
   }
-  
-  .mainProductsCardContentContainer {
-    background-color: #fff;
-    padding: 0px;
-  }
-  
-  .mainProductsCard p {
-    min-height: 120px;
-    font-size: 16px;
-    text-align: center;
-    margin: 10px 10px 10px 10px;
-    font-size: 16px;
-  }
-  
-  .mainProductsCard img {
-    opacity: 0.93;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .mainProductsCard:hover img {
+
+  .mainSercivesTabTitle1 a:hover,
+  .mainSercivesTabTitle1 a.active {
+    background-color: transparent !important;
+    background-image: url(../images/tabUnderLine.png);
+    background-position: center bottom;
+    background-size: 80% 4px;
+    background-repeat: no-repeat;
+    color: #fff !important;
+    font-weight: bold;
     opacity: 1;
   }
-  
-  .servicesTitle .learnMore {
-    background-color: transparent;
-    border: 1px solid #212529;
-    color: #212529;
-    width: 50%;
-    margin-top: 50px;
-  }
-  .servicesTitle .learnMore:hover {
-    background-color: #212529;
-    color: #fff;
-    border: 1px solid #212529;
-  }
-  
+}
+
+.mainSercivesTabContainer .pageTitle {
+  margin-bottom: 20px;
+
+  display: inline-block;
+  width: 188px;
+  height: 34px;
+}
+
+.mainSercivesTabContainer {
+}
+
+.mainSercivesTabTitle1 {
+  background-color: transparent !important;
+  margin-left: 0px;
+  padding: 0px 5px 0px 5px;
+}
+.mainSercivesTabTitle.active {
+  background-color: transparent !important;
+  color: #212529;
+}
+
+.mainSercivesTabTitle1 a {
+  background-color: transparent !important;
+  padding: 10px 5px 10px 5px;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.mainSercivesTabTitle1 a span {
+  font-size: 20px;
+}
+
+.mainSercivesTabContainer .mainSercivesTabContentContainer {
+  background-color: transparent;
+  padding: 20px 0px 20px 0px;
+}
+.mainSercivesTabContainer .mainSercivesTabContentContainer p {
+  color: #fff;
+  letter-spacing: 0.4px;
+  text-align: justify;
+  position: relative;
+}
+.mainSercivesTabContainer .mainSercivesTabContentContainer .title p {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  margin: auto;
+}
+.serviceplan {
+  position: absolute;
+  top: -30px;
+  color: #fff;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.mainSercivesTabContainer .mainSercivesTabContentContainer .details {
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+}
+.mainSercivesTabContainer .mainSercivesTabContentContainer .details img {
+  margin-right: 15px;
+  height: fit-content;
+}
+
+.mainProductsCard:hover {
+  transform: translateY(-10px);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.mainProductsCardImgContainer {
+  padding: 0px;
+  margin: 0px;
+}
+
+.mainProductsCardContentContainer {
+  background-color: #fff;
+  padding: 0px;
+}
+
+.mainProductsCard p {
+  min-height: 120px;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  font-size: 16px;
+}
+
+.mainProductsCard img {
+  opacity: 0.93;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mainProductsCard:hover img {
+  opacity: 1;
+}
+
+.servicesTitle .learnMore {
+  background-color: transparent;
+  border: 1px solid #212529;
+  color: #212529;
+  width: 50%;
+  margin-top: 50px;
+}
+.servicesTitle .learnMore:hover {
+  background-color: #212529;
+  color: #fff;
+  border: 1px solid #212529;
+}

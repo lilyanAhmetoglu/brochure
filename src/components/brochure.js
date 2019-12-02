@@ -338,7 +338,7 @@ class Brochure extends React.Component {
             <div className="row">
               <div className="box-container">
                 <div className="row">
-                  <div className="col-md-6 col-xs-12">
+                  <div className="col-md-6 col-xs-12 margin20">
                     <h5>Project Task Summary</h5>
                     <ul>
                       <li>
@@ -465,7 +465,7 @@ class Brochure extends React.Component {
             <div className="row">
               <div className="box-container">
                 <div className="row">
-                  <div className="col-md-6 col-xs-12">
+                  <div className="col-md-6 col-xs-12 margin20">
                     <h5>Project Task Summary</h5>
                     <ul>
                       <li>
@@ -588,7 +588,7 @@ class Brochure extends React.Component {
             <div className="row">
               <div className="box-container">
                 <div className="row">
-                  <div className="col-md-6 col-xs-12">
+                  <div className="col-md-6 col-xs-12 margin20">
                     <h5>Project Task Summary</h5>
                     <ul>
                       <li>
@@ -708,7 +708,7 @@ class Brochure extends React.Component {
             <div className="row">
               <div className="box-container">
                 <div className="row">
-                  <div className="col-md-6 col-xs-12">
+                  <div className="col-md-6 col-xs-12 margin20">
                     <h5>Project Task Summary</h5>
                     <ul>
                       <li>
@@ -841,7 +841,7 @@ class Brochure extends React.Component {
             <div className="row">
               <div className="box-container">
                 <div className="row">
-                  <div className="col-md-6 col-xs-12">
+                  <div className="col-md-6 col-xs-12 margin20">
                     <h5>Project Task Summary</h5>
                     <ul>
                       <li>
