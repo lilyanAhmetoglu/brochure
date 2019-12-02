@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import { Nav, Tab } from "react-bootstrap"
 import { Parallax } from "react-spring/renderprops-addons"
+import { useSpring, animated } from "react-spring"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import "../components/main.css"
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -64,7 +65,6 @@ class Brochure extends React.Component {
       })
     }
   }
-
   render() {
     return (
       <div className="main-container">
@@ -282,7 +282,7 @@ class Brochure extends React.Component {
               <div className="col-12">
                 <div className="title">
                   <img src={Icon} />
-                  <h2>Project Referances</h2>
+                  <h2>Project References</h2>
                 </div>
                 <div className="shortDescription">
                   <h1>AWS Data Lake Project</h1>
@@ -338,32 +338,34 @@ class Brochure extends React.Component {
             <div className="row">
               <div className="box-container">
                 <div className="row">
-                  <div className="col-md-6 col-xs-12 margin20">
+                  <div className="col-md-7 col-xs-12 margin20">
                     <h5>Project Task Summary</h5>
                     <ul>
                       <li>
-                        Feature engineering using Spark SQL by joining and
-                        aggregating user tracking data
+                        {" "}
+                        ETL workflows in Data Pipeline, monitoring and
+                        management of ETL pipelines
+                      </li>
+                      <li>Batch RDBMS data migration using AWS DMS</li>
+                      <li>
+                        Batch processing in EMR and Glue using Scala Spark
                       </li>
                       <li>
-                        Keras and TensorFlow implementation for training RNN and
-                        CNN models
+                        Designing and developing data warehouse on Redshift
+                      </li>
+                      <li>DWH data model and table design</li>
+                      <li>
+                        Accessing and processing big data on S3 via SQL using
+                        Redshift Spectrum
                       </li>
                       <li>
-                        Using Spark ML for training gradient boosting
-                        classifiers
+                        Python ML implementation with Pandas, scikit-learn using
+                        Jupyter on AWS
                       </li>
-                      <li>
-                        Cross-validation, F1-score evaluation, hyperparameter
-                        optimization
-                      </li>
-                      <li>
-                        Containerized Spark standalone cluster, using Docker
-                        Compose for local deployment and AWS container services
-                      </li>
+                      <li>CI/CD development using Gitlab and Ansible</li>
                     </ul>
                   </div>
-                  <div className="col-md-6 col-xs-12">
+                  <div className="col-md-5 col-xs-12">
                     <div className="row">
                       <div className="col-md-12">
                         <h5>Technologies</h5>
@@ -465,7 +467,7 @@ class Brochure extends React.Component {
             <div className="row">
               <div className="box-container">
                 <div className="row">
-                  <div className="col-md-6 col-xs-12 margin20">
+                  <div className="col-md-7 col-xs-12 margin20">
                     <h5>Project Task Summary</h5>
                     <ul>
                       <li>
@@ -485,7 +487,7 @@ class Brochure extends React.Component {
                       <li>CI/CD implementation using GitLab</li>
                     </ul>
                   </div>
-                  <div className="col-md-6 col-xs-12">
+                  <div className="col-md-5 col-xs-12">
                     <div className="row">
                       <div className="col-md-12">
                         <h5>Technologies</h5>
@@ -588,7 +590,7 @@ class Brochure extends React.Component {
             <div className="row">
               <div className="box-container">
                 <div className="row">
-                  <div className="col-md-6 col-xs-12 margin20">
+                  <div className="col-md-7 col-xs-12 margin20">
                     <h5>Project Task Summary</h5>
                     <ul>
                       <li>
@@ -613,7 +615,7 @@ class Brochure extends React.Component {
                       <li>CI/CD development using SBT and Gitlab</li>
                     </ul>
                   </div>
-                  <div className="col-md-6 col-xs-12">
+                  <div className="col-md-5 col-xs-12">
                     <div className="row">
                       <div className="col-md-12">
                         <h5>Technologies</h5>
@@ -708,7 +710,7 @@ class Brochure extends React.Component {
             <div className="row">
               <div className="box-container">
                 <div className="row">
-                  <div className="col-md-6 col-xs-12 margin20">
+                  <div className="col-md-7 col-xs-12 margin20">
                     <h5>Project Task Summary</h5>
                     <ul>
                       <li>
@@ -740,7 +742,7 @@ class Brochure extends React.Component {
                       </li>
                     </ul>
                   </div>
-                  <div className="col-md-6 col-xs-12">
+                  <div className="col-md-5 col-xs-12">
                     <div className="row">
                       <div className="col-md-12">
                         <h5>Technologies</h5>
@@ -943,7 +945,7 @@ class Brochure extends React.Component {
               <div className="col-12">
                 <div className="title">
                   <img src={Icon} />
-                  <h2>Customer</h2>
+                  <h2>Customers</h2>
                 </div>
               </div>
             </div>

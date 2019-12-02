@@ -82,6 +82,9 @@ p {
   align-items: unset !important;
   margin-bottom: 100px;
 }
+.background2 .description {
+ margin-top: 20px;
+}
 .background2 .header .title {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -373,6 +376,9 @@ p {
   margin: auto;
   overflow: auto;
   min-width: 800px;
+}
+.bolder{
+  font-weight: 600;
 }
 @media only screen and (max-width: 992px) {
   .background {

@@ -549,7 +549,7 @@ const Products = () => {
                           fontSize: "16px",
                         }}
                       >
-                        Off-the-shelf cloud Infrastructure ad Code solutions for
+                        Off-the-shelf cloud Infrastructure and Code solutions for
                         Big Data on Cloud
                       </p>
                     </div>
