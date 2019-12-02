@@ -1,0 +1,88 @@
+.mainSercivesTabTitle.active {
+    background-color: #1d232f !important;
+    color: #fff;
+  }
+  
+  .mainSercivesTabTitle a {
+    color: #1d232f;
+    height: 100% !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    border-radius: 10px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    -moz-border-radius-bottomright: 0px !important;
+    -moz-border-radius-bottomleft: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    padding: 20px 5px 20px 5px !important;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  .mainSercivesTabTitle a:hover {
+    background-color: #1d232f !important;
+    color: #fff;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    background-image: url(../images/tabUnderLine.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 70%;
+  }
+  .mainSercivesTabTitle a.active {
+    background-color: #1d232f !important;
+    color: #fff;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    background-image: url(../images/tabUnderLine.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 70%;
+  }
+ .mainSercivesTabTitle img{
+      margin-bottom: 5px!important;
+  }
+  .mainProductsCard {
+    min-height: 320px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+
+    margin: auto;
+    padding: 0px;
+    margin: auto;
+    max-width: 275px;
+    overflow: hidden;
+  }
+  .project-img {
+
+  }
+  .mainProductsCard:hover {
+    transform: translateY(-10px);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .mainProductsCard:hover .project-img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .mainProductsCard p {
+    min-height: 110px;
+  }
+  .mainProductsCard .learnMore {
+    background-color: #fff;
+    border: 1px solid #f1af12;
+    color: #f1af12;
+  }
+  .mainProductsCard .learnMore:hover {
+    background-color: #f1af12;
+    color: #fff;
+    border: 1px solid #f1af12;
+  }

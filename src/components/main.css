@@ -1,0 +1,464 @@
+/*brochure style*/
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+p {
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+}
+.main-container {
+  background-color: #202430;
+}
+.anchors {
+  position: fixed;
+  width: 10px;
+  height: 330px;
+
+  top: 30%;
+  background-image: url("../images/line.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  right: 40px;
+  z-index: 9999;
+}
+.anchors ul {
+  list-style: none;
+  list-style: none;
+  margin-left: -9px;
+  text-align: center;
+  margin-top: 15px;
+}
+.anchors ul li a {
+  display: block;
+  text-decoration: none;
+}
+.anchors ul li a {
+  margin: auto;
+  background: url("../images/fill-1-copy-5.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 10px;
+}
+.anchors ul li a:hover,
+.anchors ul li .active {
+  background: url("../images/group.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 16px;
+}
+
+.background {
+  height: calc(100vh);
+  display: flex;
+  background-size: cover !important;
+  overflow: hidden;
+  align-items: center !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.background1 {
+  background-image: url("../images/background1.jpg");
+}
+.background1 img {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.background2 {
+  background-image: url("../images/background2.jpg");
+  display: block;
+}
+.background2 .header {
+  background-color: #fff;
+  width: 100%;
+
+  align-items: unset !important;
+  margin-bottom: 100px;
+}
+.background2 .header .title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  display: inline-flex;
+}
+.background2 .header .title img {
+  width: 60px;
+  height: 54px;
+  padding-right: 20px;
+  margin-bottom: 0;
+}
+
+.background2 .header .title h2 {
+  color: #1d232f;
+  font-size: 30px;
+  font-weight: 700;
+  margin: auto 20px;
+}
+.background2 .elements-content {
+  display: flex !important;
+  align-items: center;
+}
+
+.background2 .description p {
+  text-align: justify;
+  color: #fff;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.3px;
+}
+
+.background3 {
+  padding-top: 30px;
+}
+
+.background3 .title {
+  width: 100%;
+  display: flex;
+  float: left;
+}
+.background3 .title h2 {
+  color: #fff !important;
+}
+.background3 .title img {
+  width: 60px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
+.background4 {
+  background-color: #f2f2f2;
+}
+
+.background4 .title {
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  float: left;
+}
+.background4 .title h2 {
+  color: #212b36 !important;
+}
+.background4 .title img {
+  width: 60px;
+  padding-right: 20px;
+  margin-bottom: 0;
+}
+
+.background5 {
+  padding-top: 30px;
+
+  background-image: url("../images/background2.jpg");
+}
+
+.background5 .title {
+  width: 100%;
+  display: flex;
+  float: left;
+}
+.background5 .title h2 {
+  color: #fff !important;
+}
+.background5 .title img {
+  width: 60px;
+  padding-right: 20px;
+}
+.background5 .shortDescription {
+  display: inline-flex;
+}
+.background5 .shortDescription p {
+  color: #fff;
+  font-size: 20px;
+}
+.background5 .achievments {
+  margin-top: 30px;
+}
+.background5 .achievments img {
+  margin: auto;
+  display: block;
+  width: 80px;
+}
+.background5 .achievments p {
+  margin-top: 15px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+}
+.background6 {
+  padding-top: 20px;
+  align-items: center !important;
+  background-image: url("../images/background3.jpg");
+}
+.background6 .title {
+  width: 100%;
+  display: inline-flex;
+  float: left;
+}
+.background6 .title h2 {
+  color: #fff !important;
+}
+.background6 .title img {
+  width: 60px;
+  padding-right: 20px;
+  margin-bottom: 10 !important;
+}
+.background6 .shortDescription {
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+.background6 .shortDescription h1 {
+  color: #fff;
+  font-size: 22px;
+}
+
+.background6 .details {
+  display: contents;
+  padding-top: 30px;
+}
+.background6 .details .info {
+  width: 100%;
+  padding-bottom: 5px;
+  display: flex;
+}
+.background6 .details .info img {
+  height: fit-content;
+  margin-right: 10px;
+  margin-bottom: 10px !important;
+}
+.background6 .details .info p {
+  color: #fff;
+  font-size: 16x;
+  font-weight: 600;
+  line-height: 2;
+  /* height: 75px; */
+  margin: 0px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.background6 .details .info p span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: lighter;
+  letter-spacing: 0.2px;
+}
+.background6 .box-container {
+  background-color: #fff;
+  width: 100%;
+  color: #212b36;
+  border-radius: 15px;
+  padding: 15px;
+}
+.background6 .box-container ul {
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+.background6 .box-container ul li {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.yellow {
+  color: #f1af12 !important;
+}
+
+.background12 {
+  padding-top: 20px;
+  align-items: center !important;
+  background-image: url("../images/background4.jpg");
+}
+.background12 .title {
+  width: 100%;
+  display: inline-flex;
+  float: left;
+}
+.background12 .title h2 {
+  color: #fff !important;
+}
+.background12 .title img {
+  width: 60px;
+  padding-right: 20px;
+  margin-bottom: 10 !important;
+}
+.background12 .achievments {
+  margin-top: 30px;
+}
+.background12 .achievments img {
+  margin: auto;
+  display: block;
+  width: 60%;
+}
+.background13 {
+  position: relative;
+  display: block;
+  align-items: center !important;
+}
+.background13 img {
+  margin-bottom: 0;
+}
+.background13 .bottom {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  display: block !important;
+  min-height: 200px;
+  background-color: #e7c066;
+}
+/*.background13 .bottom:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  transform: skew(-45deg);
+  z-index: -1;
+}*/
+.background13 .bottom .title {
+  margin-top: 20px;
+}
+.background13 .bottom .title h1 {
+  color: #2d343e;
+}
+.background13 .contact {
+  display: inline-flex;
+}
+.background13 .contact h3 {
+  color: #2d343e;
+}
+.background13 .contact img {
+  height: fit-content;
+  margin-right: 10px;
+}
+.displaygrid {
+  display: grid;
+  margin-top: 10px;
+}
+.margin10 {
+  margin-bottom: 10px;
+}
+
+.background13 .contact p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d343e;
+}
+.pinimage {
+  margin-left: -5px;
+}
+.circulwidth {
+  width: 40% !important;
+}
+.rectanglewidth {
+  width: 100% !important;
+}
+.margin30 {
+  margin-bottom: 30px;
+}
+.pronav {
+  margin: auto;
+  overflow: auto;
+  min-width: 800px;
+}
+@media only screen and (max-width: 992px) {
+  .background {
+    height: auto;
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+  .background1 img {
+    padding: 20%;
+  }
+  .background2 .header .title h2 {
+    font-size: 24px;
+  }
+  .background2 .header {
+    margin-bottom: 40px;
+  }
+  .background13 {
+    padding: 0 !important;
+    position: initial;
+  }
+  .background13 .bottom {
+    position: initial;
+    padding-bottom: 50px;
+  }
+  .anchors {
+    display: none;
+  }
+  .background3 .nav-pills {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 700px) {
+  p {
+    font-size: 16px;
+  }
+  .background2 .header .title h2 {
+    font-size: 20px;
+  }
+  .col-xs-5ths,
+  .col-sm-5ths,
+  .col-md-5ths,
+  .col-lg-5ths {
+    margin: auto;
+  }
+  .background13 .bottom .title h1 {
+    font-size: 22px;
+  }
+
+  .background13 .contact h3 {
+    color: #2d343e;
+    font-size: 18px;
+  }
+  .pinimage {
+    height: 25px !important;
+    margin-left: 0;
+  }
+  .background13 .contact p {
+    font-size: 16px;
+  }
+}
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-xs-5ths {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-5ths {
+    width: 20%;
+    float: left;
+  }
+}
