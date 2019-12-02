@@ -470,6 +470,16 @@ p {
     float: left;
   }
 }
+@media (max-width: 767px) {
+  .col-md-5ths {
+    width: 100%;
+    
+  }
+  .col-sm-5ths {
+    width: 50%;
+    float: left;
+  }
+}
 
 @media (min-width: 992px) {
   .col-md-5ths {

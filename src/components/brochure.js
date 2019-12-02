@@ -1,8 +1,8 @@
-import React from "react"
+import React, { useState } from "react"
 import ReactDOM from "react-dom"
 import { Nav, Tab } from "react-bootstrap"
 import { Parallax } from "react-spring/renderprops-addons"
-import { useSpring, animated } from "react-spring"
+import { useTransition, animated } from "react-spring"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import "../components/main.css"
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -53,6 +53,7 @@ import C17 from "../images/c17.png"
 import C18 from "../images/c18.png"
 import C19 from "../images/c19.png"
 import C20 from "../images/c20.png"
+
 
 class Brochure extends React.Component {
   componentDidMount() {
@@ -956,108 +957,108 @@ class Brochure extends React.Component {
               </div>
             </div>
             <div className="row margin30">
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths col-xs-12">
                 <div className="achievments">
                   <img className="circulwidth" src={C1} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img className="circulwidth" src={C2} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img className="circulwidth" src={C3} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img className="circulwidth" src={C4} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img src={C5} />
                 </div>
               </div>
             </div>
             <div className="row margin30">
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img src={C6} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img src={C7} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img src={C8} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths">
                 <div className="achievments">
                   <img src={C9} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img className="circulwidth" src={C10} />
                 </div>
               </div>
             </div>
             <div className="row margin30">
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img className="circulwidth" src={C11} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img className="circulwidth" src={C12} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img src={C13} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img className="circulwidth" src={C14} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img className="circulwidth" src={C15} />
                 </div>
               </div>
             </div>
             <div className="row ">
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img src={C16} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img src={C17} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img className=" rectanglewidth" src={C18} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths ">
                 <div className="achievments">
                   <img src={C19} />
                 </div>
               </div>
-              <div class="col-md-5ths col-xs-12">
+              <div class="col-sm-5ths">
                 <div className="achievments">
                   <img src={C20} />
                 </div>
