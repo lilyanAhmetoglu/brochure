@@ -59,7 +59,10 @@ p {
   justify-content: center;
   align-items: center;
 }
+.background .title img {
 
+  height: unset!important;
+}
 .background1 {
   background-image: url("../images/background1.jpg");
 }
@@ -401,7 +404,7 @@ p {
     margin: auto;
   }
   .background .title img {
-    height: auto!important;
+    height: 54px!important;
   }
   .mainSercivesTabContainer .mainSercivesTabContentContainer p {
     padding-top: 30px !important;
