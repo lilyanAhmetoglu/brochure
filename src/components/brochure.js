@@ -68,7 +68,7 @@ class Brochure extends React.Component {
   render() {
     return (
       <div className="main-container">
-        <section class="anchors">
+        <section class="bro-anchors">
           <ul>
             <li>
               <AnchorLink
@@ -112,11 +112,11 @@ class Brochure extends React.Component {
             </li>
           </ul>
         </section>
-        <div className="background background1" id="b1">
+        <div className="bro-background background1" id="b1">
           <img src={Logo} className="img-fluid" />
         </div>
 
-        <div className="background background2" id="b2">
+        <div className="bro-background background2" id="b2">
           <div className="header">
             <div className="container">
               <div className="row">
@@ -159,7 +159,7 @@ class Brochure extends React.Component {
             </div>
           </div>
         </div>
-        <div className="background background4" id="b3">
+        <div className="bro-background background4" id="b3">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -174,7 +174,7 @@ class Brochure extends React.Component {
             </div>
           </div>
         </div>
-        <div className="background background3" id="b4">
+        <div className="bro-background background3" id="b4">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -190,7 +190,7 @@ class Brochure extends React.Component {
           </div>
         </div>
 
-        <div className="background background5" id="b5">
+        <div className="bro-background background5" id="b5">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -280,7 +280,7 @@ class Brochure extends React.Component {
             </div>
           </div>
         </div>
-        <div className="background background6" id="b6">
+        <div className="bro-background background6" id="b6">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -417,7 +417,7 @@ class Brochure extends React.Component {
           </div>
         </div>
 
-        <div className="background background6" id="b7">
+        <div className="bro-background background6" id="b7">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -537,7 +537,7 @@ class Brochure extends React.Component {
           </div>
         </div>
 
-        <div className="background background6" id="b8">
+        <div className="bro-background background6" id="b8">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -658,7 +658,7 @@ class Brochure extends React.Component {
           </div>
         </div>
 
-        <div className="background background6" id="b9">
+        <div className="bro-background background6" id="b9">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -788,7 +788,7 @@ class Brochure extends React.Component {
             </div>
           </div>
         </div>
-        <div className="background background6" id="b10">
+        <div className="bro-background background6" id="b10">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -943,7 +943,7 @@ class Brochure extends React.Component {
             </div>
           </div>
         </div>
-        <div className="background background12" id="b11">
+        <div className="bro-background background12" id="b11">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -1064,8 +1064,8 @@ class Brochure extends React.Component {
           </div>
         </div>
 
-        <div className="background background13" id="b12">
-          <img src={Contact} />
+        <div className="bro-background background13" id="b12">
+          <img className="bro-map" src={Contact} />
           <div className="bottom">
             <div className="container">
               <div className="row">

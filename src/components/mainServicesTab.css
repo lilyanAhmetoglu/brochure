@@ -1,5 +1,5 @@
 @media only screen and (max-width: 991px) {
-  .mainProductsCard {
+  .bro-mainProductsCard {
     width: 90%;
     min-height: 380px;
     margin: auto;
@@ -8,7 +8,7 @@
     max-width: 275px;
     overflow: hidden;
   }
-  .mainProductsCardContainer {
+  .bro-mainProductsCardContainer {
     margin-bottom: 30px;
   }
 
@@ -56,13 +56,13 @@
     -moz-border-radius: 10px !important;
     border-radius: 10px !important;
   }
-  .mainSercivesTabContainer .mainSercivesTabContentContainer p {
+  .bro-mainSercivesTabContainer .mainSercivesTabContentContainer p {
     padding-top: 30px !important;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .mainProductsCard {
+  .bro-mainProductsCard {
     width: 90%;
     min-height: 360px;
     margin: auto;
@@ -72,7 +72,7 @@
     overflow: hidden;
   }
 
-  .mainProductsCardContainer {
+  .bro-mainProductsCardContainer {
     margin-bottom: 10px;
   }
 
@@ -93,7 +93,7 @@
   }
 }
 
-.mainSercivesTabContainer .pageTitle {
+.bro-mainSercivesTabContainer .pageTitle {
   margin-bottom: 20px;
 
   display: inline-block;
@@ -101,15 +101,14 @@
   height: 34px;
 }
 
-.mainSercivesTabContainer {
-}
+
 
 .mainSercivesTabTitle1 {
   background-color: transparent !important;
   margin-left: 0px;
   padding: 0px 5px 0px 5px;
 }
-.mainSercivesTabTitle.active {
+.mainSercivesTabTitle1.active {
   background-color: transparent !important;
   color: #212529;
 }
@@ -127,17 +126,17 @@
   font-size: 20px;
 }
 
-.mainSercivesTabContainer .mainSercivesTabContentContainer {
+.bro-mainSercivesTabContainer .mainSercivesTabContentContainer {
   background-color: transparent;
   padding: 20px 0px 20px 0px;
 }
-.mainSercivesTabContainer .mainSercivesTabContentContainer p {
+.bro-mainSercivesTabContainer .mainSercivesTabContentContainer p {
   color: #fff;
   letter-spacing: 0.4px;
   text-align: justify;
   position: relative;
 }
-.mainSercivesTabContainer .mainSercivesTabContentContainer .title p {
+.bro-mainSercivesTabContainer .mainSercivesTabContentContainer .title p {
   color: #fff;
   text-align: center;
   font-weight: 600;
@@ -151,29 +150,29 @@
   font-weight: 600;
   margin-bottom: 5px;
 }
-.mainSercivesTabContainer .mainSercivesTabContentContainer .details {
+.bro-mainSercivesTabContainer .mainSercivesTabContentContainer .details {
   width: 100%;
   padding-top: 20px;
   display: flex;
 }
-.mainSercivesTabContainer .mainSercivesTabContentContainer .details img {
+.bro-mainSercivesTabContainer .mainSercivesTabContentContainer .details img {
   margin-right: 15px;
   height: fit-content;
 }
 
 
 
-.mainProductsCardImgContainer {
+.bro-mainProductsCardImgContainer {
   padding: 0px;
   margin: 0px;
 }
 
-.mainProductsCardContentContainer {
+.bro-mainProductsCardContentContainer {
   background-color: #fff;
   padding: 0px;
 }
 
-.mainProductsCard p {
+.bro-mainProductsCard p {
   min-height: 120px;
   font-size: 16px;
   text-align: center;
@@ -181,25 +180,12 @@
   font-size: 16px;
 }
 
-.mainProductsCard img {
+.bro-mainProductsCard img {
   
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.mainProductsCard:hover img {
+.bro-mainProductsCard:hover img {
   opacity: 1;
-}
-
-.servicesTitle .learnMore {
-  background-color: transparent;
-  border: 1px solid #212529;
-  color: #212529;
-  width: 50%;
-  margin-top: 50px;
-}
-.servicesTitle .learnMore:hover {
-  background-color: #212529;
-  color: #fff;
-  border: 1px solid #212529;
 }

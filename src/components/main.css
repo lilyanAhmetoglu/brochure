@@ -7,7 +7,7 @@ p {
 .main-container {
   background-color: #202430;
 }
-.anchors {
+.bro-anchors {
   position: fixed;
   width: 10px;
   height: 330px;
@@ -19,21 +19,21 @@ p {
   right: 40px;
   z-index: 9999;
 }
-.anchors ul {
+.bro-anchors ul {
   list-style: none;
   list-style: none;
   margin-left: -9px;
   text-align: center;
   margin-top: 15px;
 }
-.anchors ul li{
+.bro-anchors ul li{
   height: .725rem;
 }
-.anchors ul li a {
+.bro-anchors ul li a {
   display: block;
   text-decoration: none;
 }
-.anchors ul li a {
+.bro-anchors ul li a {
   margin: auto;
   background: url("../images/fill-1-copy-5.png");
   background-size: 100% 100%;
@@ -41,8 +41,8 @@ p {
   width: 12px;
   height: 10px;
 }
-.anchors ul li a:hover,
-.anchors ul li .active {
+.bro-anchors ul li a:hover,
+.bro-anchors ul li .active {
   background: url("../images/group.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ p {
   height: 16px;
 }
 
-.background {
+.bro-background  {
   height: calc(100vh);
   display: flex;
   background-size: cover !important;
@@ -59,7 +59,7 @@ p {
   justify-content: center;
   align-items: center;
 }
-.background .title img {
+.bro-background  .title img {
   height: 53px !important;
 }
 .background1 {
@@ -73,6 +73,9 @@ p {
 .background2 {
   background-image: url("../images/background2.jpg");
   display: block;
+}
+.background2 .img-fluid{
+  width: 100%;
 }
 .background2 .header {
   background-color: #fff;
@@ -343,6 +346,9 @@ p {
 .background13 .contact h3 {
   color: #2d343e;
 }
+.background13 .bro-map {
+  width: 100vw!important;
+}
 .background13 .contact img {
   height: fit-content;
   margin-right: 10px;
@@ -351,9 +357,7 @@ p {
   display: grid;
   margin-top: 10px;
 }
-.margin10 {
-  margin-bottom: 10px;
-}
+
 
 .background13 .contact p {
   font-size: 18px;
@@ -372,6 +376,9 @@ p {
 .margin30 {
   margin-bottom: 30px;
 }
+.margin10 {
+  margin-bottom: 10px;
+}
 .pronav {
   margin: auto;
   overflow: auto;
@@ -381,7 +388,7 @@ p {
   font-weight: 600;
 }
 @media only screen and (max-width: 992px) {
-  .background {
+  .bro-background  {
     height: auto;
     padding: 10px;
     padding-bottom: 50px;
@@ -399,17 +406,18 @@ p {
     padding: 0 !important;
     position: initial;
   }
+  
   .background13 .bottom {
     position: initial;
     padding-bottom: 50px;
   }
-  .anchors {
+  .bro-anchors {
     display: none;
   }
   .background3 .nav-pills {
     margin: auto;
   }
-  .background .title img {
+  .bro-background  .title img {
     height: 54px!important;
   }
   .mainSercivesTabContainer .mainSercivesTabContentContainer p {

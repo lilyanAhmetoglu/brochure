@@ -45,7 +45,7 @@ const Products = () => {
             className="container row pronav" 
             style={{ margin: "auto" }}
           >
-            <Nav.Item className="col mainSercivesTabTitle">
+            <Nav.Item className="col bro-mainSercivesTabTitle">
               <Nav.Link
                 eventKey="dm"
                 style={{ textAlign: "center", padding: "0px" }}
@@ -54,7 +54,7 @@ const Products = () => {
                 <span style={{ fontSize: "18px" }}>Data Migration</span>
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item className="col mainSercivesTabTitle">
+            <Nav.Item className="col bro-mainSercivesTabTitle">
               <Nav.Link
                 eventKey="dl"
                 style={{ textAlign: "center", padding: "0px" }}
@@ -63,7 +63,7 @@ const Products = () => {
                 <span style={{ fontSize: "18px" }}>Data Lake</span>
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item className="col mainSercivesTabTitle">
+            <Nav.Item className="col bro-mainSercivesTabTitle">
               <Nav.Link
                 eventKey="ai"
                 style={{ textAlign: "center", padding: "0px" }}
@@ -72,7 +72,7 @@ const Products = () => {
                 <span style={{ fontSize: "18px" }}>Machine Learning & AI</span>
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item className="col mainSercivesTabTitle">
+            <Nav.Item className="col bro-mainSercivesTabTitle">
               <Nav.Link
                 eventKey="an"
                 style={{ textAlign: "center", padding: "0px" }}
@@ -81,7 +81,7 @@ const Products = () => {
                 <span style={{ fontSize: "18px" }}>Analytics</span>
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item className="col mainSercivesTabTitle">
+            <Nav.Item className="col bro-mainSercivesTabTitle">
               <Nav.Link
                 eventKey="dv"
                 style={{ textAlign: "center", padding: "0px" }}
@@ -103,7 +103,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -125,7 +125,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -148,7 +148,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -171,7 +171,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -199,7 +199,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -222,7 +222,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -245,7 +245,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -268,7 +268,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -296,7 +296,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -319,7 +319,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -342,7 +342,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -365,7 +365,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -393,7 +393,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -416,7 +416,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -439,7 +439,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -462,7 +462,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -490,7 +490,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -513,7 +513,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -536,7 +536,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}
@@ -559,7 +559,7 @@ const Products = () => {
                     className="col col-12 col-sm-12 col-md-6 col-lg-3 "
                     style={{ marginBottom: "10px" }}
                   >
-                    <div className="mainProductsCard">
+                    <div className="bro-mainProductsCard">
                       <img
                         className="project-img"
                         style={{ width: "100%" }}

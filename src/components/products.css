@@ -1,9 +1,9 @@
-.mainSercivesTabTitle.active {
+.bro-mainSercivesTabTitle.active {
     background-color: #1d232f !important;
     color: #fff;
   }
   
-  .mainSercivesTabTitle a {
+  .bro-mainSercivesTabTitle a {
     color: #1d232f;
     height: 100% !important;
     -webkit-border-radius: 10px !important;
@@ -18,7 +18,7 @@
     padding: 20px 5px 20px 5px !important;
     filter: brightness(0) invert(1);
   }
-  .mainSercivesTabTitle a:hover {
+  .bro-mainSercivesTabTitle a:hover {
     background-color: transparent !important;
     color: #fff;
     filter: brightness(0) invert(1);
@@ -27,7 +27,7 @@
     background-repeat: no-repeat;
     background-size: 70%;
   }
-  .mainSercivesTabTitle a.active {
+  .bro-mainSercivesTabTitle a.active {
     background-color: transparent !important;
     color: #fff;
     filter: brightness(0) invert(1);
@@ -36,10 +36,10 @@
     background-repeat: no-repeat;
     background-size: 70%;
   }
- .mainSercivesTabTitle img{
+ .bro-mainSercivesTabTitle img{
       margin-bottom: 5px!important;
   }
-  .mainProductsCard {
+  .bro-mainProductsCard {
     min-height: 320px;
     border-radius: 10px;
     background-color: transparent;
@@ -60,20 +60,20 @@
 
   }
 
-  .mainProductsCard:hover{
+  .bro-mainProductsCard:hover{
     box-shadow: 0 4px 10px 0px #000;
 
   }
-  .mainProductsCard p {
+  .bro-mainProductsCard p {
     min-height: 110px;
     color: #fff;
   }
-  .mainProductsCard .learnMore {
+  .bro-mainProductsCard .learnMore {
     background-color: #fff;
     border: 1px solid #f1af12;
     color: #f1af12;
   }
-  .mainProductsCard .learnMore:hover {
+  .bro-mainProductsCard .learnMore:hover {
     background-color: #f1af12;
     color: #fff;
     border: 1px solid #f1af12;

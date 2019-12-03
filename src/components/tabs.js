@@ -19,7 +19,7 @@ import service3_3 from "../images/s3-3.png"
 class MainServicesCreate extends React.Component {
   render() {
     return (
-      <div className="col-12 mainSercivesTabContainer" id="projects">
+      <div className="col-12 bro-mainSercivesTabContainer" id="projects">
         <Tab.Container id="main-products-tab" defaultActiveKey="BG">
           <div className="container mainSercivesTabTitle1Container ">
             <Nav variant="pills" className="container row">
