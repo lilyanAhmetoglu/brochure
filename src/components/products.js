@@ -93,7 +93,7 @@ const Products = () => {
           </Nav>
         </div>
         <div
-          style={{ backgroundColor: "#1d232f", padding: "30px 0px 30px 0px" }}
+          className="project-container"
         >
           <Tab.Content className="container">
             <Tab.Pane eventKey="dm">

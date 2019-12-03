@@ -129,7 +129,6 @@ class Brochure extends React.Component {
               </div>
             </div>
           </div>
-
           <div className="elements-content">
             <div className="container">
               <div className="row">
@@ -160,7 +159,6 @@ class Brochure extends React.Component {
             </div>
           </div>
         </div>
-
         <div className="background background4" id="b3">
           <div className="container">
             <div className="row">
