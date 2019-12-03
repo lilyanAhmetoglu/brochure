@@ -199,7 +199,7 @@ class MainServicesCreate extends React.Component {
                           (IaC) templates and off-the-shelf deployments.
                           Standard automated cloud DevOps solutions via Ansible,
                           Terraform, Docker, Kubernetes, Jenkins, Git, ELK,
-                          Nagios, and Ganglia
+                          Nagios, and Ganglia.
                         </p>
                       </div>
                     </div>

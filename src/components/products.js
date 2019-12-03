@@ -139,7 +139,7 @@ const Products = () => {
                         }}
                       >
                         Migration at scale from multiple data sources to your
-                        Cloud Data Lake.
+                        Cloud Data Lake
                       </p>
                     </div>
                   </div>
