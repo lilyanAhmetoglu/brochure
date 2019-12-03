@@ -333,7 +333,7 @@ const Products = () => {
                         }}
                       >
                         Automated Machine Learning with Cloud DevOps for
-                        limitless scalable computational power
+                        limitless scalable power
                       </p>
                     </div>
                   </div>
@@ -527,7 +527,7 @@ const Products = () => {
                         }}
                       >
                         Agile Solution Development and Operations on Cloud
-                        Infrastructure using DevOps Practices
+                        using DevOps Practices
                       </p>
                     </div>
                   </div>

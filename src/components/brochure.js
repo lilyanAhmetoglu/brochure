@@ -15,7 +15,7 @@ import Industry from "../images/industry.png"
 import Description from "../images/description.png"
 import Point from "../images/point.png"
 import Pin from "../images/pin.png"
-import Contact from "../images/background5.jpg"
+import Contact from "../images/background5.png"
 import MainservicesTab from "../components/tabs"
 import Products from "../components/products"
 import Line from "../images/line.png"
@@ -53,7 +53,6 @@ import C17 from "../images/c17.png"
 import C18 from "../images/c18.png"
 import C19 from "../images/c19.png"
 import C20 from "../images/c20.png"
-
 
 class Brochure extends React.Component {
   componentDidMount() {
@@ -241,8 +240,8 @@ class Brochure extends React.Component {
               </div>
               <div class="col-md-5ths col-xs-12">
                 <div className="achievments">
-                  <img src={A6} />
-                  <p>Internal training & certification of employees</p>
+                  <img src={A4} />
+                  <p>Cloudera, Hadoop, AWS, Azure partner</p>
                 </div>
               </div>
             </div>
@@ -261,8 +260,8 @@ class Brochure extends React.Component {
               </div>
               <div class="col-md-5ths col-xs-12">
                 <div className="achievments">
-                  <img src={A4} />
-                  <p>Cloudera, Hadoop, AWS, Azure partner</p>
+                  <img src={A6} />
+                  <p>Internal training & certification of employees</p>
                 </div>
               </div>
 
